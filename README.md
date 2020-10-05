@@ -1,7 +1,7 @@
 # ros-kubja-tools
 Repo with my tools for ROS. 
 
-## navasattfix_rosbag_to_kml.py
+## navsattfix_rosbag_to_kml.py
 
 --> Visualize ROS `sensor_msgs/NavSatFix` in Google Earth.
 
@@ -10,7 +10,7 @@ This script takes rosbag with `sensor_msgs/NavSatFix` topic as an input and expo
 ### Usage
 
 ```
-python navasattfix_rosbag_to_kml.py [absolute/relative bag file path] [topic_name]
+python navsattfix_rosbag_to_kml.py [absolute/relative bag file path] [topic_name]
 ```
 
 ---
